@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f3e8ff, #ede9fe);
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor */
+.container {
+    margin-top: 50px;
+}
+
+/* Título */
+h1 {
+    color: #5b21b6;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Tarjetas o secciones */
+.card, .box {
+    background-color: white;
+    border: 1px solid #d8b4fe;
+    border-left: 6px solid #7c3aed;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(124, 58, 237, 0.15);
+}
+
+/* Botones */
+button {
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #5b21b6;
+}
+
+/* Inputs */
+input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #c4b5fd;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #7c3aed;
+    outline: none;
+    box-shadow: 0 0 5px rgba(124, 58, 237, 0.4);
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 12px;
+    border: 2px solid #7c3aed;
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.25);
+}
+
+.modal-header {
+    background: linear-gradient(135deg, #7c3aed, #5b21b6);
+    color: white;
+    border-bottom: none;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color: #f5f3ff;
+    color: #333;
+}
+
+.modal-footer {
+    background-color: #ede9fe;
+    border-top: none;
+}
+
+/* Botón cerrar (X) */
+.btn-close {
+    filter: invert(1); /* lo hace blanco para que combine */
+}
